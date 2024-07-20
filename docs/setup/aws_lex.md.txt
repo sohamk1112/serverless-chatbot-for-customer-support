@@ -1,0 +1,25 @@
+# Setting Up AWS Lex
+
+## Step 1: Create a Lex Bot
+1. Open the AWS Management Console.
+2. Navigate to AWS Lex.
+3. Click on "Create bot".
+4. Define the bot's name, session timeout, and choose a voice if needed.
+5. Click "Create".
+
+## Step 2: Define Intents
+1. Go to the "Intents" section.
+2. Click "Add intent" and define a new intent (e.g., `CheckOrderStatus`).
+3. Provide sample utterances (e.g., "What's the status of my order?").
+
+## Step 3: Create Slot Types and Slots
+1. Define custom slot types if needed under the "Slot types" section.
+2. Within each intent, create slots to capture user input (e.g., order number).
+
+## Step 4: Configure Responses
+1. Define response messages and prompts for slot filling.
+2. Configure the confirmation and error messages.
+
+## Step 5: Test the Bot
+1. Use the Lex console to test the bot's responses.
+2. Ensure it understands the sample utterances correctly.
